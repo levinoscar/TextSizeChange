@@ -37,5 +37,4 @@ class MainActivity : AppCompatActivity(), SizeFragment.ValueChangeInterface {
         // Change text size
         textFragment.changeTextSize(value.toFloat())
     }
-
 }
