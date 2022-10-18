@@ -43,5 +43,4 @@ class TextFragment : Fragment() {
         if (::textView.isInitialized)
             textView.textSize = size
     }
-
 }
