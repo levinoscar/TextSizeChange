@@ -33,7 +33,7 @@ class TextFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         sizeViewModel.getSize().observe(requireActivity()) {
-            // Add some code
+            changeTextSize(it)
         }
     }
 
